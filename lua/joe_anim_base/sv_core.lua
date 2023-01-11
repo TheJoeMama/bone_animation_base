@@ -29,6 +29,6 @@ end
 
 hook.Add("SetupMove", "JAnimBase:RemoveAnimOnMove", function(ply, mv, cmd)
     if not ply.jemote_manipulated then return end
-    if ( mv:GetVelocity() == Vector(0,0,0) or ply:KeyDown(IN_WALK) ) then return end
+    if ( mv:GetVelocity() == Vector(0,0,0) ) then return end
     JAnimBase:ResetAnim(ply)
 end)
