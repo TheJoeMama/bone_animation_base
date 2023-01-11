@@ -1,0 +1,20 @@
+SERVER:
+
+JAnimBase:StartAnim(player, table)
+
+JAnimBase:ResetAnim(player)
+
+SHARED:
+
+JAnimBase:IsPlyAnimated(player) : boolean
+
+
+Bonedata table layout:
+
+local emotes = {
+    ["Comlink"] = {
+        ["ValveBiped.Bip01_R_UpperArm"] = Angle(33, -103, 2),
+        ["ValveBiped.Bip01_R_Forearm"] = Angle(-90, -31, -42),
+        ["ValveBiped.Bip01_R_Hand"] = Angle(0, 0, -15),
+    },
+}
