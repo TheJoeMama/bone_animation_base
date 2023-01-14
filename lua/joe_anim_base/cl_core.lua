@@ -14,7 +14,7 @@ local reset = {
     ["ValveBiped.Bip01_L_Foot"] = nullang,
     ["ValveBiped.Bip01_R_Calf"] = nullang,
     ["ValveBiped.Bip01_L_Calf"] = nullang,
-    ["ValveBiped.Bip01_Pelvis"] = nullang,
+    ["ValveBiped.Bip01_Pelvis"] = Vector(0, 0, 0),
 
 	["ValveBiped.Bip01_R_Clavicle"] = nullang,
 
